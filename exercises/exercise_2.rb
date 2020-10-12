@@ -6,11 +6,11 @@ puts "----------"
 
 # Your code goes here ...
 
-store1 = Store.find_by(id: 1)
-store2 = Store.find_by(id: 2)
+@store1 = Store.find_by(id: 1)
+@store2 = Store.find_by(id: 2)
 
-store1.name = "Timmy's Taco Emporium"
-store1.save
+@store1.name = "Timmy's Taco Emporium"
+@store1.save
 
-p store1
+p @store1
 
